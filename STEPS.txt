@@ -1,0 +1,63 @@
+Go to Github web
+create a new repo
+go to vs code 
+open a new terminal
+run git init
+run git add README.md
+run git config --global user.name "Ahmad-MAA"
+run git config --global "musa.ahmad4abubakar@gmail.com"
+run git status
+git add file_name 
+ (use "git rm --cached <file>..." to unstage)
+git status
+git commit -m "first commit"
+
+linking folder to repo
+copy git remote add origin command e.g below
+git remote add origin https://github.com/Ahmad-MAA/capital_edge_stock_data.git
+git remote add origin https://github.com/Ahmad-MAA/capital_edge_stock_data.git
+run copied 
+run git push -u origin master
+
+Create the coding environment  (.ipynb file)
+import the libraries
+create a .env file
+create .gitignore
+create REAMME.md file
+
+Add the .env file in the gitignore file
+
+run git status
+run git add .
+run git commit -m "Second  commit"
+run git push -u origin master 
+
+add the API in the .env
+Create the EXtraction function 
+Create the Transformation 
+Create the Loading
+
+then run the git command as above
+
+Next is create a virtual environment 
+open a new terminal 
+
+
+
+run wsl
+
+create a venv using 
+python3 -m venv name_of_env
+source ./name_of_env/bin/activate
+pip install pandas
+pip install azure_storage_blob
+pip install python-dotenv
+pip3 install apache-airflow
+
+navigating to the virtual environment
+run cd ~
+run cd to envinronment location 
+eg 
+cd /c/Users/AHMAD/OneDrive/Documents/10alytics/main_capston
+
+
