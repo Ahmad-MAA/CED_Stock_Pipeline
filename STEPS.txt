@@ -3,6 +3,7 @@ create a new repo
 go to vs code 
 open a new terminal
 run git init
+
 create a .env file
 create .gitignore
 create REAMME.md file
@@ -40,13 +41,10 @@ Create the Loading
 
 then run the git command as above
 
+
 Next is create a virtual environment 
 open a new terminal 
-
-
-
 run wsl
-
 create a venv using 
 python3 -m venv name_of_env
 source ./name_of_env/bin/activate
@@ -60,5 +58,16 @@ run cd ~
 run cd to envinronment location 
 eg 
 cd /c/Users/AHMAD/OneDrive/Documents/10alytics/main_capston
+
+
+create the etl.py script
+create the DAG script
+
+place both scripts in the DAG folder of Airflow home
+navigate to the Aiflow folder
+Run the ls 
+run sudo nano dag_script.py ////// copy the DAG script and Paste. 
+do sampe for the etl.py
+
 
 

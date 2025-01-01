@@ -1,0 +1,1 @@
+A fully automated system that retrieves financial data from APIs and eliminates the need for manual extraction, transformation and loading
