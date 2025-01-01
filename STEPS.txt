@@ -3,11 +3,16 @@ create a new repo
 go to vs code 
 open a new terminal
 run git init
-run git add README.md
+create a .env file
+create .gitignore
+create REAMME.md file
+Add the .env file in the gitignore file
+
 run git config --global user.name "Ahmad-MAA"
 run git config --global "musa.ahmad4abubakar@gmail.com"
 run git status
-git add file_name 
+git add .
+
  (use "git rm --cached <file>..." to unstage)
 git status
 git commit -m "first commit"
@@ -21,11 +26,7 @@ run git push -u origin master
 
 Create the coding environment  (.ipynb file)
 import the libraries
-create a .env file
-create .gitignore
-create REAMME.md file
 
-Add the .env file in the gitignore file
 
 run git status
 run git add .
