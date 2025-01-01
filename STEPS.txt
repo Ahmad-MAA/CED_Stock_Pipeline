@@ -70,4 +70,88 @@ run sudo nano dag_script.py ////// copy the DAG script and Paste.
 do sampe for the etl.py
 
 
+create a requirement.txt folder
+run command pip install -r requirements.txt
+install pacakeges individually
+
+'''''''
+sudo service mysql start
+airflow db init
+
+#create user account
+# create a file and name it as below
+create_user.txt
+#type in the file (username admin is the name of the user it can change)# adminsef, esef
+airflow users create --username adminsf --firstname ahmad --lastname musa --role Admin --email dad@gamil.com
+#paste in the above in the terminal 
+# save the password to remember 123
+# 
+
+run the create command and input password
+#go to airflow directory from linux using 
+cd /home/airflow
+/c/Users/AHMAD/OneDrive/Documents/10alytics/main_capstone$
+# run 
+ls
+# run / spind the server aiflow with 
+airflow webserver --port 8080
+8082
+# run the airflow schedulere all on wsl from same directory cd/home/airflow
+airflow scheduler
+http://localhost:8080 on web pacakeges
+log in on webpage
+
+# open wsl >>> venv >> run
+cd /home/ahmad/airflow
+
+# make a new directory for the dag folder( mkdir zipco_food_dag)
+mkdir zipco_food_dag
+
+#run 
+ls 
+# run 
+sudo nano airflow.cfg 
+password 0852
+chage dag file name to the new directory dag directory....(the last directory to the dag direcctory)
+Ctrl + X, Y to save and enter to close
+
+# change directory to the dag folder directory
+# run
+cd zipco_food_dag
+open a new terminal  copy---  2
+# opnen wsl console
+copy file to airflow directory
+cp zipco_transaction.csv /home/ahmad/airflow/zipco_food_dag
+source new_env/bin/activate
+cd /home/ahmad/airflow
+cp .env /home/ahmad/airflow/zipco_food_dag
+sudo nano .env ------- to check
+copy all pipeline files
+Ctrl C to end terminal
+
+run / spind the server aiflow with webserver 8080
+run the airflow schedulere all on wsl  virtual environment
+end airflow pipeline
+
+remove the file 
+rm Extraction.py and other parts
+# run 
+sudo nano dag_script.py
+copy from the .py file and paste the Ctrl + X Y enter(wsl venv aiflow dag folder)
+and for other files
+run ls
+# do same for the etl script
+~~~~ incase of failure 
+email in dag script using sudo nano should be false 
+airflow is reading the files from the wrong folder
+
+#run 
+find / -name file_name
+# run 
+locate file_name
+if not work
+#run 
+locate sudo apt-get install mlocate
+airflow list
+source ./airflow_venv/bin/activate
 
